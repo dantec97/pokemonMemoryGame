@@ -1,0 +1,173 @@
+#game div {
+  border: 1px solid black;
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  background-image: url(cards/card\ back.png);
+  background-size: 150px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  border-radius: 10px;
+  background-position-y: -3px;
+  background-position-x: px;
+  
+  
+}
+
+/* Flip effect for all cards */
+#game div.flipped {
+  transform: rotateY(180deg);
+}
+
+
+body{
+  text-align: center;
+  background-image:url(cards/bg4k.jpeg);
+  font-family: Pokemon solid;
+  color: ;
+}
+
+h1 {
+  background-image: url(cards/bar2.jpeg);
+  background-size: 500px;
+  background-position-y: 155px;
+  color: #333; /* Dark text color for contrast */
+  padding: 10px; /* Space around the text */
+  
+  border-radius: 8px; /* Rounded corners for the box */
+  text-align: center; /* Center the text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 20px; /* Space below the box */
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+
+#score{
+  background-color: rgb(0, 0, 0);
+    margin-left: 30rem;
+  margin-right: 30rem;
+  color:black;
+  background-color: white;
+  border-radius: 100px;
+}
+
+#game div.pikachu.flipped{
+
+  background-image: url(cards/pikachu.jpeg);
+  background-size: 150px;
+}
+
+#game div.alakazam.flipped {
+  background-image: url(cards/alakazam.png);
+}
+
+#game div.mimikyu.flipped {
+  background-image: url(cards/mimikyu.png);
+}
+
+#game div.rayquaza.flipped {
+  background-image: url(cards/rayquaza.png);
+}
+
+
+
+#game div.squirtle.flipped {
+  background-image: url(cards/squirtle.jpeg);
+}
+
+#game div.bulbasaur.flipped {
+  background-image: url(cards/bulbasaur.png);
+}
+
+#game div.gengar.flipped {
+  background-image: url(cards/gengar.jpeg);
+}
+
+#game div.eevee.flipped {
+  background-image: url(cards/eevee.jpeg);
+}
+
+#game div.mewtwo.flipped {
+  background-image: url(cards/mewtwo.jpeg);
+}
+
+#game div.charizard.flipped {
+  background-image: url(cards/charizard.jpeg);
+  
+
+}
+
+#game div.flipped{
+  transform: rotateY(360deg);
+
+}
+
+.card.flipped .card-inner {
+  /* transform: rotateY(360deg); */
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s; /* Animation speed */
+  transform-style: preserve-3d; /* Ensure 3D effect */
+}
+
+button{
+  font-family: Pokemon Solid;
+  border-radius: 100px;
+}
+
+#gameContent{
+  display: none;
+}
+
+#startButton {
+  position: absolute;
+  outline: none;
+  border: none;
+  
+  background-image: url(cards/startBall.png);
+  background-size: 350px;
+  background-position-y: -25px;
+  background-position-x: -25px;
+  width: 300px;
+  height: 300px;
+  font-size: 65px;
+  line-height: 150px;
+  font-variant-position: 100px;
+  border-radius: 50%;
+  padding: 0;
+  overflow: hidden;
+  color: white;
+
+  /* Centering */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Moves the element back by half its width and height */
+}
+
+
+#startButton .playBtn{
+  color: #e30e0e;
+  
+  
+}
+
+#homeButton {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #f00; /* Red background */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
